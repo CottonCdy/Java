@@ -23,6 +23,11 @@ public class Practice12_2 {
 			System.out.println(number1 + " * " + number2 + "의 계산 결과는 " + (number1 * number2));
 			break;
 		case "/":
+			if (number2 == 0) {
+				System.out.println("0으로 나눌 수 없습니다");
+				return;
+			}
+
 			System.out.println(number1 + " / " + number2 + "의 계산 결과는 " + (number1 / number2));
 			break;
 		default:
