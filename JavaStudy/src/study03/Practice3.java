@@ -2,7 +2,7 @@ package study03;
 
 import java.util.Scanner;
 
-public class DrawStar {
+public class Practice3 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class DrawStar {
 		int number = scan.nextInt();
 
 		for (int i = 0; i < number; i++) {
-			for (int j = i; j < number; j++)
+			for (int j = i; j < number; j++) // j값에 현재 i값을 저장
 				System.out.print("*");
 
 			System.out.println();

@@ -2,7 +2,7 @@ package study04;
 
 import java.util.Scanner;
 
-class Rectangle {
+class RectangleEx {
 	int width;
 	int height;
 
@@ -13,7 +13,7 @@ class Rectangle {
 
 public class RectApp {
 	public static void main(String[] args) {
-		Rectangle rect = new Rectangle(); // 梓端 持失
+		RectangleEx rect = new RectangleEx(); // 梓端 持失
 		Scanner scan = new Scanner(System.in);
 		System.out.print(" >> ");
 		rect.width = scan.nextInt();

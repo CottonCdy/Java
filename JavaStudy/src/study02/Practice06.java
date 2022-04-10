@@ -35,7 +35,5 @@ public class Practice06 {
 				System.out.println("박수짝");
 		} else
 			System.out.println("3, 6, 9 미포함");
-
 	}
-
 }

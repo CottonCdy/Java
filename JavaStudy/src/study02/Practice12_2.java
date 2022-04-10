@@ -3,7 +3,6 @@ package study02;
 import java.util.Scanner;
 
 public class Practice12_2 {
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
@@ -32,9 +31,6 @@ public class Practice12_2 {
 			break;
 		default:
 			System.out.println("유효하지 않은 값");
-
 		}
-
 	}
-
 }
